@@ -116,7 +116,7 @@ class Client
     }
 
     public function images($keyword, $count = 10, $offset = 0, $safesearch = TRUE, $language = null) {
-        return $this->search($keyword, 'ia', $count, $offset, $safesearch, $language);
+        return $this->search($keyword, 'images', $count, $offset, $safesearch, $language);
     }
 
     public function social($keyword, $count = 10, $offset = 0, $safesearch = TRUE, $language = null) {
